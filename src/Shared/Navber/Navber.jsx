@@ -14,7 +14,7 @@ const Navber = () => {
     const navOptions = <>
     <li><Link to="/">Home</Link></li>
     <li><Link to="class">Colleges</Link></li>
-    <li><Link to="instractor">Admission</Link></li>
+    <li><Link to="admission">Admission</Link></li>
     <li><Link to="/dashboard">My College</Link></li>
     {
         user ? <>
