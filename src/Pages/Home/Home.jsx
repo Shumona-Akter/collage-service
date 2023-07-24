@@ -5,7 +5,7 @@ import AdmissionAdivce from '../../Component/AdmissionAdivce';
 import StudyFrom from '../../Component/StudyFrom';
 import Banner from '../../Component/Banner';
 import Collage from '../../Component/Collage';
-import Footer from '../../Shared/Navber/Footer/Footer';
+import Gallery from '../../Component/Gallery';
 
 const Home = () => {
     return (
@@ -13,10 +13,11 @@ const Home = () => {
         <Navber></Navber>
 <Banner></Banner>
 <About></About>
+<Gallery></Gallery>
 <Collage></Collage>
 <AdmissionAdivce></AdmissionAdivce>
 <StudyFrom></StudyFrom>
-<Footer></Footer>
+
 </>
     );
 };

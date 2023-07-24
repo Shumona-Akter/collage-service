@@ -1,0 +1,20 @@
+{
+    "universities": [
+      {
+        "name": "Example University",
+        "image_url": "https://www.exampleuniversity.edu/images/logo.png"
+      },
+      {
+        "name": "Sample University",
+        "image_url": "https://www.sampleuniversity.edu/images/logo.png"
+      },
+      {
+        "name": "Test University",
+        "image_url": "https://www.testuniversity.edu/images/logo.png"
+      },
+      {
+        "name": "Demo University",
+        "image_url": "https://www.demouniversity.edu/images/logo.png"
+      }
+    ]
+  }
