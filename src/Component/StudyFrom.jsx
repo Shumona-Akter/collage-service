@@ -10,7 +10,7 @@ const StudyFrom = () => {
     <div className="w-1/2 mx-auto">
       <h1 className=" text-4xl mb-5 font-bold">Study abroad from Bangladesh with the right scholarship</h1>
       <p className="mb-5">PFEC Global is proud to dedicatedly work in Bangladesh for international students and assist them in winning prestigious scholarships during a resourceful education journey.</p>
-      <Link><button className="btn btn-primary">Admission</button></Link>
+      <Link to={"/admission"}><button className="btn btn-primary">Admission</button></Link>
     </div>
   </div>
 </div>

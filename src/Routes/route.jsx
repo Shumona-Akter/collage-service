@@ -9,6 +9,7 @@ import Admission from "../Pages/Admission/Admission";
 import LoginPage from "../Pages/Login/LoginPage";
 import CollageDetails from "../Pages/CollageDetails";
 import Resister from "../Pages/Resister/Resister";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -35,9 +36,9 @@ const router = createBrowserRouter([
         
         },
        {
-        path:'/:id',
-        element:<CollageDetails></CollageDetails>,
-        loader: ({params})=> fetch(`http://localhost:3000/collage${params._id}`)
+        path:'/category/:id',
+        element:<PrivateRoute><CollageDetails></CollageDetails></PrivateRoute>,
+        loader: ({params})=> fetch(`https://school-book-service-server.vercel.app/collage/${params.id}`)
        }
        
        ]

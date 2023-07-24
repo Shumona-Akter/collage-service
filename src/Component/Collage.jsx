@@ -8,7 +8,7 @@ const Collage = () => {
     console.log(user?.email)
     const [Class, setClass] = useState([])
    
-    const url = 'http://localhost:3000/collage'
+    const url = 'https://school-book-service-server.vercel.app/collage'
     useEffect(() =>{
         fetch (url)
         .then(res => res.json())

@@ -5,6 +5,7 @@ import AdmissionAdivce from '../../Component/AdmissionAdivce';
 import StudyFrom from '../../Component/StudyFrom';
 import Banner from '../../Component/Banner';
 import Collage from '../../Component/Collage';
+import Footer from '../../Shared/Navber/Footer/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
 <Collage></Collage>
 <AdmissionAdivce></AdmissionAdivce>
 <StudyFrom></StudyFrom>
+<Footer></Footer>
 </>
     );
 };
